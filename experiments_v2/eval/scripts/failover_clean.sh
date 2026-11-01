@@ -5,7 +5,7 @@
 # contention. Models a cluster where a dead engine's load lands on a
 # survivor with spare capacity.
 set -u
-REPO="/home/yzhong76/code/my-vllm-serving-system"; cd "$REPO"
+REPO="/home/yzhong76/code/ferry"; cd "$REPO"
 export EVAL_RESULTS_DIR="$REPO/experiments_v2/eval/results/a6000"
 export FT_ROUTER_STALE_THRESHOLD_S=0.5
 export FT_ROUTER_STATUS_POLL_INTERVAL_S=0.2

@@ -6,7 +6,7 @@
 # metric (per-request deadline). Pass iff it completes with a metrics
 # JSON and no traceback.
 set -u
-REPO_ROOT="/home/yzhong76/code/my-vllm-serving-system"
+REPO_ROOT="/home/yzhong76/code/ferry"
 cd "$REPO_ROOT"
 export EVAL_RESULTS_DIR="$REPO_ROOT/experiments_v2/eval/results/a6000"
 LOG_DIR="${EVAL_RESULTS_DIR}/logs/tiered_smoke_$(date +%Y%m%d_%H%M%S)"

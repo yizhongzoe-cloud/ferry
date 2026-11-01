@@ -7,7 +7,7 @@
 #   collapse cases: seed16 qps0.4, seed16 qps0.5, seed9 qps0.5
 #   regression:     seed0  qps0.5
 set -u
-REPO_ROOT="/home/yzhong76/code/my-vllm-serving-system"
+REPO_ROOT="/home/yzhong76/code/ferry"
 cd "$REPO_ROOT"
 EVAL_RESULTS_DIR="experiments_v2/eval/results/a6000"
 export EVAL_RESULTS_DIR="$REPO_ROOT/$EVAL_RESULTS_DIR"

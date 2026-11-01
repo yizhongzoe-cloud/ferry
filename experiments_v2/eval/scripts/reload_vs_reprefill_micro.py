@@ -29,7 +29,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-REPO_ROOT = Path("/home/yzhong76/code/my-vllm-serving-system")
+REPO_ROOT = Path("/home/yzhong76/code/ferry")
 MODEL = "/home/yzhong76/model/Qwen2.5-14B-Instruct"
 EVAL_RESULTS_DIR = REPO_ROOT / "experiments_v2/eval/results/a6000"
 

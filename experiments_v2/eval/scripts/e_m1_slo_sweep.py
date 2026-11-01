@@ -80,7 +80,7 @@ HOW TO RUN
 Single point (always set PYTHONPATH to repo root so the experiments_v2
 package import works from -m):
 
-  cd /path/to/my-vllm-serving-system
+  cd /path/to/ferry
   PYTHONPATH=. python -m experiments_v2.eval.scripts.e_m1_slo_sweep \\
     --baseline ours --dataset sharegpt \\
     --arrival-rate-qps 4.0 --num-requests 60 --seed 0 \\

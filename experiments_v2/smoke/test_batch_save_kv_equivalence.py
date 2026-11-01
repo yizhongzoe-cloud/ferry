@@ -31,7 +31,7 @@ from types import SimpleNamespace
 import torch
 
 sys.path.insert(0, os.path.expanduser(
-    "/home/yzhong76/code/my-vllm-serving-system"
+    "/home/yzhong76/code/ferry"
 ))
 
 # Force delta mode on — this is the path Stage 2 is most likely to break.

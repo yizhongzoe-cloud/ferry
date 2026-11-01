@@ -1,3 +1,21 @@
+# Ferry
+
+Ferry is a research prototype built on vLLM for resumable long-context LLM
+serving. It checkpoints KV cache to host memory and supports resuming requests
+after preemption, tool-call pauses, or engine process failures, including
+rerouting to another engine on the same host.
+
+- [Implementation and demo guide](experiments_v2/CSE%20232/CODE_AND_DEMO.md)
+- [Setup and requirements](experiments_v2/docs/setup_requirements.md)
+- [Evaluation scripts](experiments_v2/eval/README.md)
+- [HTTP router](experiments_v2/router/router.py)
+
+Repository: [yizhongzoe-cloud/ferry](https://github.com/yizhongzoe-cloud/ferry).
+
+The upstream vLLM README follows below.
+
+---
+
 <!-- markdownlint-disable MD001 MD041 -->
 <p align="center">
   <picture>

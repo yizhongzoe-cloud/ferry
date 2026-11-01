@@ -14,7 +14,7 @@
 #   seed 0  — light sample, no monster. Regression: ours must stay
 #             competitive when there is nothing to save.
 set -u
-REPO_ROOT="/home/yzhong76/code/my-vllm-serving-system"
+REPO_ROOT="/home/yzhong76/code/ferry"
 cd "$REPO_ROOT"
 export EVAL_RESULTS_DIR="$REPO_ROOT/experiments_v2/eval/results/a6000"
 LOG_DIR="${EVAL_RESULTS_DIR}/logs/tiered_ab_$(date +%Y%m%d_%H%M%S)"

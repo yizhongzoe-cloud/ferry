@@ -8,7 +8,7 @@
 # holds 6x~10K=60K < KV budget (no OOM/thrash). Records detection latency +
 # net (mechanism) gap separately.
 set -u
-REPO="/home/yzhong76/code/my-vllm-serving-system"; cd "$REPO"
+REPO="/home/yzhong76/code/ferry"; cd "$REPO"
 export EVAL_RESULTS_DIR="$REPO/experiments_v2/eval/results/a6000"
 # fast failure detection (common to both arms; isolates the mechanism)
 export FT_ROUTER_STALE_THRESHOLD_S=0.5

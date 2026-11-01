@@ -3,7 +3,7 @@
 # laxity picker. Only variable = FT_PICKER_FIT_GATE (0=off matches §3.3 picker,
 # 1=on adds today's fit gate). K-cap OFF in both. seeds 0,1 at q0.5 and q0.4.
 set -u
-REPO_ROOT="/home/yzhong76/code/my-vllm-serving-system"; cd "$REPO_ROOT"
+REPO_ROOT="/home/yzhong76/code/ferry"; cd "$REPO_ROOT"
 export EVAL_RESULTS_DIR="$REPO_ROOT/experiments_v2/eval/results/a6000"
 export FT_PICKER_MAX_PREEMPTS_PER_REQ=0   # K-cap off in both arms
 LOG_DIR="${EVAL_RESULTS_DIR}/logs/paper_fitab_$(date +%Y%m%d_%H%M%S)"; mkdir -p "$LOG_DIR"

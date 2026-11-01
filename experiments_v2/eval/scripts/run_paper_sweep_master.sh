@@ -37,7 +37,7 @@
 
 set -u
 
-REPO_ROOT="/home/yzhong76/code/my-vllm-serving-system"
+REPO_ROOT="/home/yzhong76/code/ferry"
 cd "$REPO_ROOT"
 export PYTHONPATH="${REPO_ROOT}"
 

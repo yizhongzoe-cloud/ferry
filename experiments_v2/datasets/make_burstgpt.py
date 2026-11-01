@@ -31,7 +31,7 @@ from pathlib import Path
 from datasets import load_dataset
 from transformers import AutoTokenizer
 
-REPO_ROOT = Path("/home/yzhong76/code/my-vllm-serving-system")
+REPO_ROOT = Path("/home/yzhong76/code/ferry")
 CACHED_DIR = REPO_ROOT / "experiments_v2/datasets/cached"
 OUT_PATH = CACHED_DIR / "burstgpt_mixed.jsonl"
 TOKENIZER_PATH = "/home/yzhong76/model/Qwen2.5-7B-Instruct"

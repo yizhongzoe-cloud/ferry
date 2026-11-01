@@ -11,7 +11,7 @@
 
 set -u
 
-REPO_ROOT="/home/yzhong76/code/my-vllm-serving-system"
+REPO_ROOT="/home/yzhong76/code/ferry"
 cd "$REPO_ROOT"
 
 HARDWARE_TAG="${HARDWARE_TAG:-a6000}"

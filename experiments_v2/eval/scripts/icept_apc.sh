@@ -4,7 +4,7 @@
 # the cached prompt prefix (cheap, ours loses) or it gets LRU-evicted under
 # pressure (recompute, ours wins).
 set -u
-REPO="/home/yzhong76/code/my-vllm-serving-system"; cd "$REPO"
+REPO="/home/yzhong76/code/ferry"; cd "$REPO"
 export EVAL_RESULTS_DIR="$REPO/experiments_v2/eval/results/a6000"
 LOG_DIR="${EVAL_RESULTS_DIR}/logs/icept_apc_$(date +%Y%m%d_%H%M%S)"; mkdir -p "$LOG_DIR"
 cleanup(){ pkill -KILL -f api_server 2>/dev/null; pkill -KILL -f EngineCore 2>/dev/null

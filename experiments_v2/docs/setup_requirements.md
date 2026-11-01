@@ -6,11 +6,11 @@ Steps to set up this fork on a new machine (e.g., L40S cluster).
 
 ```bash
 cd /home/yzhong76/code
-git clone <repo-url> my-vllm-serving-system
-cd my-vllm-serving-system
+git clone https://github.com/yizhongzoe-cloud/ferry.git
+cd ferry
 ```
 
-If you already have it, just `cd /home/yzhong76/code/my-vllm-serving-system`.
+If you already have it, just `cd /home/yzhong76/code/ferry`.
 
 ## 2. Create a virtual environment
 

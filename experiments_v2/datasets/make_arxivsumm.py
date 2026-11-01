@@ -20,7 +20,7 @@ from datasets import load_dataset
 from transformers import AutoTokenizer
 
 OUT_PATH = Path(
-    "/home/yzhong76/code/my-vllm-serving-system/experiments_v2/datasets/cached/arxivsumm.jsonl"
+    "/home/yzhong76/code/ferry/experiments_v2/datasets/cached/arxivsumm.jsonl"
 )
 TOKENIZER_PATH = "/home/yzhong76/model/Qwen2.5-7B-Instruct"
 

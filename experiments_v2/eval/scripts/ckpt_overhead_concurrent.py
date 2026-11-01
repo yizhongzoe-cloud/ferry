@@ -29,7 +29,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from threading import Lock
 
-REPO_ROOT = Path("/home/yzhong76/code/my-vllm-serving-system")
+REPO_ROOT = Path("/home/yzhong76/code/ferry")
 MODEL = "/home/yzhong76/model/Qwen2.5-14B-Instruct"
 ENGINE_PORT = 8000
 EVAL_RESULTS_DIR = REPO_ROOT / "experiments_v2/eval/results/a6000"

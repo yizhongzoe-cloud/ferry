@@ -32,7 +32,7 @@ Total time on A6000: ~4.5h. On L40S: ~3-4h (faster prefill).
 For each GPU box, run **once** before any sweep:
 
 ```bash
-cd ~/code/my-vllm-serving-system
+cd ~/code/ferry
 PYTHONPATH=. python -m experiments_v2.eval.scripts.slo_calibration \
   --dataset sharegpt --num-requests 30 --arrival-rate-qps 0.1 --seed 0
 PYTHONPATH=. python -m experiments_v2.eval.scripts.slo_calibration \
@@ -96,7 +96,7 @@ rm -rf /dev/shm/vllm_ft_engine_status /dev/shm/vllm_ft_req_map \
 ### A6000
 
 ```bash
-cd ~/code/my-vllm-serving-system
+cd ~/code/ferry
 
 nohup setsid env HARDWARE_TAG=a6000 \
   SHORT_P95_TTFT_MS=456 SHORT_P95_TPOT_MS=22 \
@@ -113,7 +113,7 @@ Read your own per-GPU calibration P95 values first by inspecting the
 calibration JSONs in `experiments_v2/eval/results/l40s/slo_calib_*.json`.
 
 ```bash
-cd ~/code/my-vllm-serving-system
+cd ~/code/ferry
 
 nohup setsid env HARDWARE_TAG=l40s \
   SHORT_P95_TTFT_MS=268 SHORT_P95_TPOT_MS=21 \

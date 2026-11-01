@@ -45,7 +45,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-REPO = Path("/home/yzhong76/code/my-vllm-serving-system")
+REPO = Path("/home/yzhong76/code/ferry")
 MODEL = os.path.expanduser("~/model/Qwen2.5-14B-Instruct")
 PORT = 8401
 REQ_MAP_DIR = Path("/dev/shm/vllm_ft_req_map")

@@ -6,7 +6,7 @@
 #   recompute (vanilla vLLM): resume = full re-prefill of the long prompt
 # ============================================================
 set -u
-REPO="/home/yzhong76/code/my-vllm-serving-system"; cd "$REPO"
+REPO="/home/yzhong76/code/ferry"; cd "$REPO"
 export EVAL_RESULTS_DIR="$REPO/experiments_v2/eval/results/a6000"
 LOG="$EVAL_RESULTS_DIR/logs/demo_$(date +%H%M%S)"; mkdir -p "$LOG"
 N=8; PAUSE=15; OUT=40; PMIN=6000; PMAX=12000
